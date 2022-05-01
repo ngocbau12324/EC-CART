@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./Cart/style.css" type="text/css">
     <!-- Proxima Nova reference. -->
     <link href="https://use.typekit.net/emv3zbo.css" rel="stylesheet" crossorigin="anonymous">
     <!-- Arizona Bootstrap reference. -->
@@ -23,8 +23,8 @@
         </div>
         <div class="content">
             <?php
-            if (1) include('cart.php') ;
-            else include('./empty_cart.php')
+            if (1) include('./Cart/cart.php') ;
+            else include('./Cart/empty_cart.php')
             ?>
         </div>
         <div class="footer">
