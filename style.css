@@ -1,0 +1,108 @@
+/*Trang giỏ hàng*/
+body{
+    font-family: "proxima-nova";
+    font-size: 14px;
+}
+.cart{
+    display: flex;
+    /* background-color: aqua; */
+    margin: 0px 320px 0px 320px;
+}
+.cart .cart-sidebar{
+    width: 40%;    
+}
+.cart .cart-body{
+    width: 60%;
+}
+.cart > div{
+    /* background-color: antiquewhite; */
+    margin: 5px;
+    padding: 5px;    
+}
+.cart .page-title-name{
+    font-size: 28px;
+    color: #333333;
+    font-weight: 600;
+    margin: 0px 0px 4px;
+}
+.cart .breadcumb{
+    color:#757575;
+    padding: 0px 0px 13px;
+}
+.cart a{ 
+    text-decoration: none;
+    color: #1a7ac4;
+}
+.cart table{
+        width: 100%;
+            
+}
+/* .cart table,td,tr{
+    border: 1px solid black;
+    width:fit-content;
+} */
+.cart table img{
+    width:100%;
+}
+.cart .item-option{
+    display: flex !important;
+}
+.cart .item-control-delete{
+    color:#757575;
+    text-align:right;
+}
+.ec-link-hover:hover{
+    color: #115080;
+}
+.cart .cart-summary-price{
+    text-align: right;
+    padding: 0px 0px 8px;
+}
+.cart .cart-summary-title{
+    padding: 0px 0px 8px;
+}
+.cart .cart-summary-row-total .cart-summary-title{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+.cart .cart-summary-row-total .cart-summary-price-total{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+.cart .cart-shopping{
+    padding: 10px 0px 0px;
+}
+
+.cart .cart-email{
+    margin-bottom: 16px;
+}
+.cart .cart-email .cart-email_text{
+    margin-bottom: 16px;
+}
+.cart .cart-email .cart-email_input input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #a8bac7;
+    border-radius: 3px;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%) inset;
+    color: #333;   
+    padding-left: 8px;
+}
+.cart .cart-email .cart-email_input input:hover{    
+    background-color: white;    
+}
+.cart .cart_checkout .cart_agreement{
+    display: flex !important;
+}
+.cart .cart_checkout .cart_agreement .form-checkbox input{
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+.cart .cart_agreement{
+    margin-bottom: 16px;
+}
+/*Trang giỏ hàng*/
