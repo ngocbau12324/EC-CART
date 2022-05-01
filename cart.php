@@ -3,7 +3,11 @@
         <div class="page-title-name">
             Giỏ hàng
         </div>
-        <div class="breadcumb">Cửa hàng / Giỏ hàng</div>
+        <div class="breadcumb">
+            <a href="abcd" class="breakcumb-link">Cửa hàng</a>
+            <span>/</span>
+            <a href="swss" class="breakcumb-link">Giỏ hàng</a>
+        </div>
         <div class="cart-products">
             <div class="cart-products-inner">
                 <div class="cart-item">
@@ -38,6 +42,13 @@
                         <tr>
                             <td style="color:#1a7ac4">
                                 <div class="item-qty ec-link-hover">Số lượng: 1</div>
+                                <select name="listQty" id="qty"
+                                    style="width:20px;height:15px;border:none;color: #1a7ac4;">
+                                    <?php
+                                        for($index=1; $index <=20;$index++)
+                                            echo '<option value="'.$index.'"style="color: #333;">'.$index.'</option>'
+                                    ?>
+                                </select>
                             </td>
                             <td style="text-align:right;">
                                 <div class="item-price">280&nbsp;200đ</div>
@@ -120,7 +131,8 @@
             </div>
         </div>
         <div class="cart_next">
-            <div class="cart_next_header">Bước tiếp theo</div><hr>
+            <div class="cart_next_header">Bước tiếp theo</div>
+            <hr>
             <div class="cart_next_step cart_next_step_shipping">
                 <div class="cart_next_title">Chọn cách gửi hàng</div>
                 <div class="cart_next_muted">Chọn cách nhận hàng.</div>
