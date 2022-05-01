@@ -32,6 +32,9 @@ a:hover{
     color:#757575;
     padding: 0px 0px 13px;    
 }
+.cart .breadcumb{
+    margin-bottom: 10px !important;
+}
 .cart .breadcumb a:hover{
     color:#115080;        
 }
@@ -181,5 +184,31 @@ a:hover{
 .cart .cart_next .cart_next_muted{
     color: #757575;
     opacity: 1;
-}   
+} 
+/*Empty cart*/
+.cart-empty{
+    text-align: center;
+    justify-content: center;
+}
+.cart-empty .cart-message{
+    margin-bottom: 16px;
+    font-weight: 600;
+} 
+.cart-empty .cart-button button{
+    border-color: #ccc;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #757575;
+    outline: none;
+    box-shadow: 0 0 0 rgb(0 0 0 / 0%);;
+    font-weight: 600;   
+    border-radius: 3px;
+    width: 150px;
+    height: 32px;
+    transition: all .5s ease;
+}
+.cart-empty button:hover{
+    background-color: #ccc;
+    
+}
 /*Trang giỏ hàng*/

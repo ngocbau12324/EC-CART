@@ -40,13 +40,11 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="color:#1a7ac4">
-                                <div class="item-qty ec-link-hover">Số lượng: 1</div>
-                                <select name="listQty" id="qty"
-                                    style="width:20px;height:15px;border:none;color: #1a7ac4;">
+                            <td style="color:#1a7ac4">                                
+                                <select name="listQty" id="qty"style="width:auto;border:none;color: #1a7ac4;">
                                     <?php
                                         for($index=1; $index <=20;$index++)
-                                            echo '<option value="'.$index.'"style="color: #333;">'.$index.'</option>'
+                                            echo '<option value="'.$index.'"style="color: #333;">Số lượng: '.$index.'</option>'
                                     ?>
                                 </select>
                             </td>
@@ -55,8 +53,7 @@
                             </td>
                         </tr>
                     </table>
-                </div>
-
+                </div>                
             </div>
             <hr>
         </div>

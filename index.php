@@ -13,7 +13,7 @@
     <link rel="stylesheet"
         href="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/2.0.13/css/arizona-bootstrap.min.css"
         crossorigin="anonymous">
-    
+
 </head>
 
 <body>
@@ -23,14 +23,13 @@
         </div>
         <div class="content">
             <?php
-            include('./cart.php')
+            if (1) include('cart.php') ;
+            else include('./empty_cart.php')
             ?>
         </div>
         <div class="footer">
-            
+
         </div>
     </div>
 </body>
-<script src="./javascript.js"></script>
-
 </html>
