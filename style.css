@@ -105,4 +105,55 @@ body{
 .cart .cart_agreement{
     margin-bottom: 16px;
 }
+.cart .cart-button-checkout-wrap{
+    display: flex;
+    width: 100%;
+}
+.cart .cart-button-checkout{
+    width: 50%;
+    
+}
+.cart .cart-button-checkout .btn-checkout{    
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.cart .cart-button-checkout .btn-checkout:hover{
+    background-color: #6e6e6e;
+}
+
+.cart .cart-pay-paypal iframe{
+    width: 50%;
+    
+}
+.cart .cart-pay-paypal{
+    height: 40px;
+    margin-bottom: 25px;
+}
+.cart .cart-text-mited{
+    width: 50%; 
+    padding: 3px 35px 0px 25px;    
+    font-size: 12px;
+    color: #757575;  
+}
+.cart .cart_next_header{
+    font-size: 18px;
+    font-weight: 600;    
+    margin-bottom: 8px;
+}
+.cart .cart_next .cart_next_step{
+    margin-bottom: 16px;
+}
+.cart .cart_next .cart_next_title{
+    font-weight: 400;
+    color: #333;
+}
+.cart .cart_next .cart_next_muted{
+    color: #757575;
+    opacity: 1;
+}   
 /*Trang giỏ hàng*/

@@ -107,7 +107,32 @@
                         cho tôi</label>
                 </div>
             </div>
+            <div class="cart-button-checkout-wrap">
+                <div class="cart-button-checkout">
+                    <button class="btn-checkout">Thanh toán</button>
+                </div>
+                <div class="cart-text-mited">Tất cả dữ liệu được truyền mã hóa thông qua kết nối TLS an toàn</div>
+            </div>
+            <div class="cart-pay-paypal">
+                <iframe
+                    src="https://www.paypal.com/smart/button?env=production&style.label=checkout&style.layout=vertical&style.height=40&style.shape=rect&style.color=gold&style.tagline=false&funding.disallowed=card%2Ccredit%2Cgiropay%2Cideal%2Csofort%2Ceps%2Cmybank%2Cp24%2Czimpler%2Citau%2Cbancontact%2Cblik%2Cmaxima%2Coxxo%2Cboleto%2Celv%2Cvenmo&funding.remembered=paypal&domain=1850182288-atari-embeds.googleusercontent.com&sessionID=uid_ec432397c8_mdq6mzy6mtq&buttonSessionID=uid_325fefb9c7_mdq6mzc6ntu&renderedButtons=paypal&storageID=uid_5aa6a78ded_mdq6mzy6mtq&locale.x=en_GB&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=a11c88586a&version=min&xcomponent=1"
+                    frameborder="0"></iframe>
+            </div>
         </div>
-        <div class="cart_next"></div>
+        <div class="cart_next">
+            <div class="cart_next_header">Bước tiếp theo</div><hr>
+            <div class="cart_next_step cart_next_step_shipping">
+                <div class="cart_next_title">Chọn cách gửi hàng</div>
+                <div class="cart_next_muted">Chọn cách nhận hàng.</div>
+            </div>
+            <div class="cart_next_step cart_next_step_payment">
+                <div class="cart_next_title">Thông tin thanh toán</div>
+                <div class="cart_next_muted">Chọn phương thức thanh toán và nhập các chi tiết về thanh toán.</div>
+            </div>
+            <div class="cart_next_step cart_next_step_order_cofirmation">
+                <div class="cart_next_title">Xác nhận đơn hàng</div>
+                <div class="cart_next_muted">Đặt hàng và bạn sẽ nhận được email xác nhận đơn hàng.</div>
+            </div>
+        </div>
     </div>
 </div>
